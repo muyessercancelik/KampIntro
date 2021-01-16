@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KampIntro", "KampIntro\KampIntro.csproj", "{1E2022A2-A754-4E00-BD0E-8F42723EC8DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "Metotlar\Metotlar.csproj", "{449988AF-068F-4625-987D-85EF1C7B13E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotlar.csproj", "{449988AF-068F-4625-987D-85EF1C7B13E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matematik", "Matematik\Matematik.csproj", "{F3945F13-05D2-4E59-8ADE-2F8A5419D533}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matematik", "Matematik\Matematik.csproj", "{F3945F13-05D2-4E59-8ADE-2F8A5419D533}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{28733CA8-D3ED-429A-9AF7-F70947E2C03F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{28733CA8-D3ED-429A-9AF7-F70947E2C03F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{3B63688C-A8C7-445E-BA93-CDC09737C9FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{28733CA8-D3ED-429A-9AF7-F70947E2C03F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28733CA8-D3ED-429A-9AF7-F70947E2C03F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28733CA8-D3ED-429A-9AF7-F70947E2C03F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B63688C-A8C7-445E-BA93-CDC09737C9FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B63688C-A8C7-445E-BA93-CDC09737C9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B63688C-A8C7-445E-BA93-CDC09737C9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B63688C-A8C7-445E-BA93-CDC09737C9FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
