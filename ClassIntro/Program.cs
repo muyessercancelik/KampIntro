@@ -6,6 +6,15 @@ namespace ClassIntro
     {
         static void Main(string[] args)
         {
+
+
+            //int a = 3;
+            //string odev;
+            //odev = (a < 5) ? "a, 5'ten küçüktür." : "a, 5'ten büyüktür.";  //C# dilinde "ternary operatörü"
+
+            //Console.WriteLine(odev);
+
+
             string adi = "Müyesser";
             int yas = 28;
 
@@ -16,8 +25,32 @@ namespace ClassIntro
 
             Kurs kurs2 = new Kurs();
             kurs2.KursAdi = "Yazılım";
-            kurs2.Egitmen = "Atınç Hoca";
-            kurs2.IzlenmeOrani = 30;
+            kurs2.Egitmen = "Adem Hoca";
+            kurs2.IzlenmeOrani = 99;
+
+            Kurs kurs3 = new Kurs();
+            kurs3.KursAdi = "Java";
+            kurs3.Egitmen = "Pınar Hoca";
+            kurs3.IzlenmeOrani = 86;
+
+            //Console.WriteLine(kurs1.KursAdi + " " + kurs1.Egitmen);
+
+
+            Kurs[] kurslar = new Kurs[] { kurs1, kurs2, kurs3 };
+
+            foreach (var kurs in kurslar)
+            {
+                Console.WriteLine(kurs.KursAdi + ":" + kurs.Egitmen);
+            }
+
+
         }
+    }
+
+    class Kurs
+    {
+        public string KursAdi { get; set; }
+        public string Egitmen { get; set; }
+        public int IzlenmeOrani { get; set; }
     }
 }

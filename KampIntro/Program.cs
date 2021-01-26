@@ -49,7 +49,22 @@ namespace KampIntro
 
             Console.WriteLine(kategoriEtiketi);
 
-
+            string state = "success";
+            switch (state)
+            {
+                case "success":
+                    Console.WriteLine("Giriş Başarılı");
+                    break;
+                case "error":
+                    Console.WriteLine("Giriş Başarısız");
+                    break;
+                case "information":
+                    Console.WriteLine("Giriş Bilgileri yanlış");
+                    break;
+                default:
+                    Console.WriteLine("Hataaa");
+                    break;
+            }
 
         }
     }

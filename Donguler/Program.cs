@@ -18,6 +18,7 @@ namespace Donguler         //Birbirini tekrar eden alanlar için döngüleri kul
             Console.WriteLine(kurs4);
             Console.WriteLine(kurs5);   // Manuel yazdık asla böyle kullanılmaz. 
 
+
             //array - dizi kullanılır.
 
             string[] kurslar = new string[] { "Yazılım Geliştirici Yetiştirme Kampı", "Programlamaya başlangıç için temel kurs", "Java", "Python", "C++" };
