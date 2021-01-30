@@ -27,6 +27,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryOrnek", "Dictionary\DictionaryOrnek.csproj", "{FFBA5299-B12D-4408-A866-6A72EEFD9A07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2", "OOP2\OOP2.csproj", "{33399802-9288-43FE-961C-356E1898F961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "OOP3\OOP3.csproj", "{270ACD63-921D-47BA-AE63-1179D0636E01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{FFBA5299-B12D-4408-A866-6A72EEFD9A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFBA5299-B12D-4408-A866-6A72EEFD9A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFBA5299-B12D-4408-A866-6A72EEFD9A07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33399802-9288-43FE-961C-356E1898F961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33399802-9288-43FE-961C-356E1898F961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33399802-9288-43FE-961C-356E1898F961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33399802-9288-43FE-961C-356E1898F961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270ACD63-921D-47BA-AE63-1179D0636E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270ACD63-921D-47BA-AE63-1179D0636E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270ACD63-921D-47BA-AE63-1179D0636E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270ACD63-921D-47BA-AE63-1179D0636E01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
